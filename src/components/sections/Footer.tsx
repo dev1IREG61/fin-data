@@ -10,8 +10,8 @@ const Footer: React.FC<FooterProps> = ({ isDark }) => {
       <div
         className={`flex flex-col items-center justify-between gap-4 border-t pt-8 text-sm md:flex-row ${
           isDark
-            ? "border-white/10 text-white/60"
-            : "border-gray-200 text-gray-500"
+            ? "border-white/10 text-black"
+            : "border-gray-200 text-black"
         }`}
       >
         <p>© {new Date().getFullYear()} TaxPilot. All rights reserved.</p>

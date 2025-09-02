@@ -26,7 +26,7 @@ const Hero: React.FC<HeroProps> = ({ isDark, id }) => {
             isDark ? "text-gray-400" : "text-gray-600"
           }`}
         >
-          Assemble, deliver, and connect client documents with ease. Streamline
+          Assemble, deliver, prep, Tax Plan Implementation and Data Wallets for Family Office  client documents with ease. Streamline
           every step — from gathering and organizing files to secure delivery
           and seamless integration — so your firm can focus on clients, not
           paperwork.
@@ -36,7 +36,7 @@ const Hero: React.FC<HeroProps> = ({ isDark, id }) => {
             Get Started
           </button>
           <button className="bg-black-500/20 hover:bg-purple-600/30 text-white font-bold py-3 px-6 border border-purple-400/40 rounded-lg backdrop-blur-md">
-            Book a Demo
+            Talk to Us
           </button>
         </div>
       </div>

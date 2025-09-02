@@ -597,7 +597,7 @@ import Home from "./pages/Home";
 
 const App: React.FC = () => {
   // Track theme state (light/dark)
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   return (
     <div
@@ -636,7 +636,7 @@ const App: React.FC = () => {
 
       {/* Main Content */}
       <main>
-        <Home />
+        <Home isDark={isDark} setIsDark={setIsDark} />
       </main>
     </div>
   );
